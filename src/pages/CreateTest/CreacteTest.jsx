@@ -83,7 +83,7 @@ const CreacteTest = () => {
                 </Form>
                 <Row>
                     <Col>
-                        <NavLink className='btn btn-danger' to='/' onClick={handleSubmit(handleCreateTest)}>Aguardar</NavLink>
+                        <NavLink className='btn btn-danger' to='/' onClick={handleSubmit(handleCreateTest)}>Guardar</NavLink>
                         <Button variant="primary" onClick={handleShow}>
                             Crear Preguntas
                         </Button>
